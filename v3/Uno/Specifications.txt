@@ -1,0 +1,27 @@
+Specifications
+
+PopulateDeck()
+
+	Function:
+		It will populate the deck with 108 card objects, consisting of the specified color and value.
+
+	Precondition:
+		Need to initialize deck to a array of card objects.
+		Card object must exist.
+		Size must be 0.
+
+	Postcondition:
+		The deck will have an array of card objects, each with a color and a value. Each color has one 0 card, two 1-9 cards, two Draw Two cards, two Skips, two Reverse, four wild, and four Wild Draw 4.
+		Size will be 108.
+
+ShuffleDeck()
+	
+	Function:
+		It will shuffle the entire array.
+
+	Precondition:
+		A deck of card objects must exist with the appropriate size and cards.
+		Array is not empty.
+
+	Postcondition:
+		The array will be shuffled by using std::swap and the Fisher-Yates shuffle method I learned about on YouTube.
